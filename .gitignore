@@ -1,0 +1,19 @@
+
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+cookies.txt
+
+# Dependencies
+**/node_modules/
+**/.venv/
+**/venv/
+**/__pycache__/
+**/*.py[cod]
+
+# Build output and logs
+**/dist/
+**/build/
+*.log
+.DS_Store
